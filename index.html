@@ -14,14 +14,12 @@
     <div class="container">
       <h1>Tic Tac Toe</h1>
       <div class="bar">
-        <div class="XO">
-          <button class="AI">AI</button>
-          <!-- <button class="X">X</button>
-          <button class="O">O</button> -->
-        </div>
-        <button class="restart" onclick="eraseBoard()">Restart</button>
+        <button class="AI">Easy AI</button>
+        <button class="twoPlayers">2 Players</button>
+        <button class="restart">Restart</button>
       </div>
       <div class="ticGrid">
+        <div class="gridCell" data-cell="0"></div>
         <div class="gridCell" data-cell="1"></div>
         <div class="gridCell" data-cell="2"></div>
         <div class="gridCell" data-cell="3"></div>
@@ -30,7 +28,6 @@
         <div class="gridCell" data-cell="6"></div>
         <div class="gridCell" data-cell="7"></div>
         <div class="gridCell" data-cell="8"></div>
-        <div class="gridCell" data-cell="9"></div>
       </div>
       <div class="winner"></div>
     </div>
